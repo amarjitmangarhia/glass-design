@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+p,
+h4 {
+  color: #658ec6;
+  font-weight: 400;
+}
+
+main {
+  background: linear-gradient(to right top, #65dfc9, #6cdbed);
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.glass {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  min-height: 80vh;
+  width: 80%;
+  border-radius: 2rem;
+  display: flex;
+}
+
+.circle1,
+.circle2 {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  width: 15%;
+  height: 30%;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle1 {
+  top: 5%;
+  left: 2%;
+}
+
+.circle2 {
+  bottom: 1%;
+  left: 2%;
+}
+
+.dashboard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  width: 22em;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  font-size: 17px;
+}
+
+.user {
+  margin-top: 30px;
+}
+
+/* .user img {
+  height: 100px;
+  width: 100px;
+} */
+
+.user h2 {
+  font-weight: bold;
+}
+
+.links {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.link {
+  display: flex;
+  margin: 45px;
+}
+
+.link h2 {
+  margin-left: 30px;
+}
+
+.pro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right top, #65dfc9, #6cdbed);
+  width: 90%;
+  border-radius: 20px;
+}
+
+.pro h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.pro img {
+  height: 150px;
+  position: relative;
+  bottom: 10%;
+}
+
+.games {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 4.5em;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 5rem;
+}
+
+.status h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.status input {
+  border: none;
+  padding: 8px;
+  border-radius: 20px;
+  width: 15rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  padding: 40px;
+  border-radius: 20px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.card img {
+  margin-right: 20px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.progress {
+  background: linear-gradient(to right top, #65dfc9, #6cdbed);
+  height: 25px;
+  width: 100%;
+  background-color: black;
+  border-radius: 3rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress::after {
+  content: "";
+  height: 25px;
+  width: 100%;
+  background: rgb(236, 236, 236);
+  position: absolute;
+  left: 60%;
+}
+
+.percentage {
+  position: absolute;
+  right: 20px;
+  top: 46px;
+  font-weight: bold;
+  background: linear-gradient(to right top, #65dfc9, #6cdbed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 500px) {
+}
